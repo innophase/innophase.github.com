@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* temp homepage styles */
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("http://hello.myfonts.net/count/257bc2");
+
+/*fonts*/
+@font-face {font-family: 'BrandonGrotesque-Regular';src: url('../fonts/257BC2_A_0.eot');src: url('../fonts/257BC2_A_0-.eot#iefix') format('embedded-opentype'),url('../fonts/257BC2_A_0.woff') format('woff'),url('../fonts/257BC2_A_0.ttf') format('truetype');}
+@font-face {font-family: 'BrandonGrotesque-Medium';src: url('../fonts/257BC2_B_0.eot');src: url('../fonts/257BC2_B_0-.eot#iefix') format('embedded-opentype'),url('../fonts/257BC2_B_0.woff') format('woff'),url('../fonts/257BC2_B_0.ttf') format('truetype');}
+
+body {font-family: 'Open Sans', sans-serif; margin: 0; font-size:15px; background:#4f5352; }
+
+.container, .containerFooter {margin: 0 auto; width: 960px; }
+
+.header {height: 158px; }
+
+
+
+.logo {margin-right: 27px; margin-top: 45px; }
+
+.tagline {margin-top: 75px;}
+
+a {color: #cc0000; text-decoration: none;}
+
+a, img {border:none;}
+
+a:hover {text-decoration: underline;}
+
+hr {height: 7px; background-color:#3584bd; width: 100%; border: none; }
+
+a.button {background: #11a7e4; padding: 14px 20px 20px 20px; width:222px; height: 19px; margin-top: 10px;text-align:center; text-decoration: none; text-transform:uppercase; color: #fff; font-size:16px; display:block; font-weight:bold;}
+
+span.buttonGray {background:url("../images/btn-gray-bg.gif") repeat; font-style:italic; padding: 17px 20px; width:201px; height: 19px; text-align:center; color: #fff; font-size:14px;display:block;}
+
+a.buttonSmall {background: #11a7e4; padding: 17px 20px; width:183px; height: 19px; text-align:center; text-decoration: none; text-transform:uppercase; color: #fff; font-size:14px; display:block; font-weight:bold;}
+
+a.button:hover, a.buttonSmall:hover, div.linkedIn:hover {opacity: .8;}
+
+div.linkedIn {background: #11a7e4 url("../images/linkedin.gif") no-repeat top right; width: 282px; height:53px; float: right; margin-top: 3px;}
+
+div.linkedIn a.buttonLinkedin {  padding: 14px 3px 5px 17px; text-decoration: none; text-transform:uppercase; color: #fff; font-size:16px; display:block; font-weight:bold;}
+
+.boxHiddenTeam a.button {float: right;}
+
+.box, .boxSmall, .boxWide {background-color: #2390d9; padding: 25px 30px; height: 172px; color: #fff;}
+
+.box {width:559px;}
+
+.boxWide {width:900px; height: 257px;}
+
+.boxSmall {width: 270px; margin-left: 10px; font-size:14px}
+
+.boxHidden, .boxHidden2, .boxHiddenTeam {background:url("../images/hidden-box-bg.gif") repeat; margin: 0; }
+
+.boxHiddenTeam #profile1, .boxHiddenTeam #profile2, .boxHiddenTeam #profile3, .boxHiddenTeam #profile4, .boxHiddenTeam #profile5 {display: none; margin: 0 auto; width: 960px;}
+
+.boxHidden2 #workBox, .boxHidden2 #learnBox, .boxHidden #learnMore {display: none; margin: 0 auto; width: 960px;}
+
+.boxHidden  .content, .boxHiddenTeam  .content, .boxHidden2  .content { color: #fff; width: 568px; margin: 10px 30px;}
+
+.boxHiddenTeam .profContent {width: 580px; margin: 40px; line-height: 18pt; color: #c7c7c7;}
+
+.boxHidden img.callout, .boxHidden2 img.callout {border: 10px solid #000; margin-top: 30px; margin-bottom: 20px;}
+
+.closeBtn { float: right; margin-top: 5px; width: 34px; }
+
+.left {float: left;}
+
+div#top {background:#fff no-repeat top center; width: 100%; height: 392px; display: block; }
+
+div#middle {background:#fff no-repeat top center; width: 100%; height: 247px; padding-top:30px; display: block;}
+
+div#bottom {background:#fff no-repeat top center; width: 100%; height: 333px; padding-top:20px; display: block; }
+
+div#last {background:#fff no-repeat top center; width: 100%; height: 27px; display: block; }
+
+
+h1 {font-family: BrandonGrotesque-Regular; font-weight: normal; font-size: 37px; margin: 0; color: #cf351d;}
+
+h2 {font-family: BrandonGrotesque-Regular; font-weight: normal; font-size: 30px; margin: 0; text-transform:uppercase; color: #fff;}
+
+h3 {font-family: BrandonGrotesque-Regular; font-weight: normal; font-size: 26px;}
+
+
+.teamBox h2 {font-family: BrandonGrotesque-Regular; font-weight: normal; font-size: 28px; margin: 0; color: #fff}
+
+.teamBox h2 a, .teamBox a {text-decoration: none;}
+
+.teamBox {background:url("../images/hidden-box-bg.gif") repeat; width: 172px; height: 169px; padding-top: 30px; text-align:center; margin-right: 10px; color: #fff; font-size:14px}
+
+.teamBox:hover, .active {background:url("../images/team-bg-hover.gif") repeat;}
+
+.teamBox:hover h2, .active h2 {color: #000; text-decoration: none;}
+
+.header h2 {color: #2c2c2c; font-size:22px;}
+
+.boxHiddenTeam h3{font-family: BrandonGrotesque-Regular; font-weight: normal; font-size: 28px; color: #fff; margin: 0 0 10px 0;}
+
+.boxHiddenTeam h4{font-family: BrandonGrotesque-Regular; font-weight: bold; font-size: 24px; color: #009fe0; margin: 0 0 20px;}
+
+.quoteBox {background: #0c0e0f url("../images/quote.gif") no-repeat top left; width: 404px; height: 148px; padding: 30px; line-height: 18pt; margin-right: 10px; margin-top:20px; color: #fff; font-style:italic; font-size:14px}
+
+.quoteBtm a {font-style: normal; font-weight:bold;}
+
+.quoteBtm {line-height: 1px;margin-bottom: 40px;width: 404px;background: #0c0e0f; padding: 2px 30px 30px 30px; color: #fff; font-style:italic; font-size:14px}
+
+.quoteBtm .pipe {font-style: normal; margin: 0 8px;}
+
+
+#footer{background:#4f5352 ;min-height: 90px; color: #fff; padding-top: 30px; font-size:14px}
+#footer .icon {float: left; margin-left: 7px;}
+#footer .icon:hover {opacity: .8}
+#footer .socialMedia {float: right; margin-top: -40px}
+
+
