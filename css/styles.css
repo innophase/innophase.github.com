@@ -45,6 +45,8 @@ div.linkedIn a.buttonLinkedin {  padding: 14px 3px 5px 17px; text-decoration: no
 
 .box {width:559px;}
 
+.boxp{line-height:120%;margin-top:0px;}
+
 .boxWide {width:900px; height: 257px;}
 
 .boxSmall {width: 270px; margin-left: 10px; font-size:14px}
@@ -74,7 +76,7 @@ div#bottom {background:#fff no-repeat top center; width: 100%; height: 333px; pa
 div#last {background:#fff no-repeat top center; width: 100%; height: 27px; display: block; }
 
 
-h1 {font-family: BrandonGrotesque-Regular; font-weight: normal; font-size: 37px; margin: 0; color: #cf351d;}
+h1 {font-family: BrandonGrotesque-Regular; font-weight: normal; font-size: 34px; margin: 0; color: #cf351d;}
 
 h2 {font-family: BrandonGrotesque-Regular; font-weight: normal; font-size: 30px; margin: 0; text-transform:uppercase; color: #fff;}
 
